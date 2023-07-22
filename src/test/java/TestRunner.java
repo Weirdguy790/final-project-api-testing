@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = "classpath:features",
-        glue = "classpath:stepDefinitions",
+        glue = "classpath:StepDef",
         plugin = "html:target/cucumber-html-report.html" // file format, file path
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
